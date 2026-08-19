@@ -1,0 +1,82 @@
+body{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: rgb(0, 0, 0);
+    color: white;
+}
+
+
+header {
+    border: 2px solid;
+    padding: 20px;
+    margin: 10px;
+    background-color: purple;
+    color: white;
+}
+
+
+nav {
+    border: 2px solid;
+    padding: 10px;
+    margin: 10px;
+    background-color: orange;
+}
+nav a{
+    text-decoration: none;
+}
+
+nav a:hover {
+    padding: 5px;
+    color: purple;
+}
+
+
+main {
+    border: 2px solid;
+    padding: 50px;
+    margin: 10px;
+    background-color: darkblue;
+}
+.caixa {
+    width: 300px;
+    height: 150px;
+    border: 10px solid;
+    padding: 40px;
+    margin: 10px;
+    box-sizing: border-box;
+}
+
+section {
+    border: 2px solid;
+    padding: 50px;
+    margin: 10px;
+    background-color: orange;
+    color: black;
+}
+section article{
+    background-color: purple;
+}
+
+
+article {
+    border: 2px solid;
+    padding: 60px;
+    margin: 10px;
+}
+
+
+footer {
+    border: 2px solid;
+    padding: 30px;
+    margin: 10px;
+    background-color: lightgray;
+    font-size: 0.9rem;
+    color: black;
+}
+
+
+/*
+Testado com border-box e content-box
+No border-box, a largura total permanece 300px
+No content-box, padding e borda aumentam o tamanho final da caixa
+*/
