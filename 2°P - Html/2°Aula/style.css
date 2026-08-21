@@ -1,0 +1,52 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana,sans-serif;
+    line-height: 1.6;
+    color: #333;
+}
+
+.cabecalho {
+padding: 20px 40px;
+background-color: #1e293b;
+
+}
+
+.logo {
+    color: white;
+    font-size: 24px;
+}
+
+.menu {
+    list-style: none;
+}
+
+        .menu a {
+            color: white;
+            text-decoration: none;
+            display: block;
+            padding: 5px 0;
+        }
+
+        main {
+            padding: 60px 40px;
+            min-height: 60vh;
+            background-color: #f8fafc;
+        }
+
+        .hero {
+            max-width: 800px;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        footer {
+            padding: 20px;
+            text-align: center;
+            background-color: #1e293b;
+            color: white;
+        }
