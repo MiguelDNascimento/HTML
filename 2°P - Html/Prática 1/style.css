@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    line-height: 1.6;
+}
+.cabecalho{
+    justify-content: space-between;
+    text-align: center;
+    background-color: blueviolet;
+    display: flex;
+    padding: 25px;
+    align-items: center;
+}
+.menu{
+    list-style: none;
+    display: flex;
+}
+.menu a{
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    text-align: center;
+    padding: 20px;
+    display: block;
+    transition: 0.5s;
+}
+.menu a:hover{
+    color: white;
+    background-color: rgba(255, 255, 255, 0.2);
+}
