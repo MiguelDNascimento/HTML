@@ -11,7 +11,7 @@ body {
 }
 
 .cabecalho {
-  padding: 20px 40px;
+  padding: 70px 40px;
   background-color: #1e293b;
   display: flex;
   justify-content: space-between;
@@ -19,7 +19,7 @@ body {
 }
 
 .logo {
-  color: white;
+  color: aliceblue;
   font-size: 24px;
   display: flex;
   align-items: center;
@@ -34,32 +34,36 @@ body {
 .menu {
   list-style: none;
   display: flex;
+  gap: 25px;
 }
 
 .menu a {
   color: white;
   text-decoration: none;
-  display: block;
-  padding: 5px 0;
-  margin: 15px;
-  text-align: center;
+  font-weight: bold;
+  transition: 0.3s;
 }
 .menu a:hover {
   color: aqua;
-  transition: 0.5s;
-  padding: 5px;
+  padding: 10px;
 }
 
 main {
-  padding: 60px 40px;
+  padding: 80px 40px;
   min-height: 60vh;
-  background-color: #f8fafc;
+  background-color: antiquewhite;
 }
 
 .hero {
   max-width: 800px;
   margin: 0 auto;
   text-align: center;
+}
+
+.hero h2{
+  font-size: 32px;
+  color: #333;
+  margin-bottom: 20px;
 }
 
 footer {
