@@ -51,7 +51,7 @@ body {
 main {
   padding: 80px 40px;
   min-height: 60vh;
-  background-color: antiquewhite;
+  background-color: rgb(255, 248, 240);
 }
 
 .hero {
@@ -64,6 +64,34 @@ main {
   font-size: 32px;
   color: #333;
   margin-bottom: 20px;
+}
+
+.cursos{
+  margin-top: 50px;
+}
+
+.cursos h2{
+  margin-bottom: 30px;
+}
+
+.lista-cursos{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 20px;
+}
+
+.card{
+  flex: 1 1 250px;
+  padding: 20px;
+  background-color: white;
+  border-radius: 25px;
+  box-shadow: 10px 10px rgb(67, 67, 67);
+}
+
+.card a{
+  text-decoration: none;
+  color: #1e293b;
+  font-weight: bold;
 }
 
 footer {
