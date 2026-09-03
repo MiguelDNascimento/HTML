@@ -11,7 +11,7 @@ body {
 }
 
 .cabecalho {
-  padding: 70px 40px;
+  padding: 50px 40px;
   background-color: #1e293b;
   display: flex;
   justify-content: space-between;
@@ -99,4 +99,68 @@ footer {
   text-align: center;
   background-color: #1e293b;
   color: white;
+}
+
+/* MEDIA QUERIES */
+/* TELAS GRANDES: Estas regras são aplicadasnquando a tela estiver 1200px ou mais */
+
+@media(min-width: 1200px) {
+  .main{
+    /* Limita a largura do conteudo em monitores grandes */
+    max-width: 1200px;
+
+    /* Centraliza o conteudo horizontalmente */
+    margin: 0 auto;
+  }
+}
+
+
+/* TABLETS: Estas regras são  aplicadas quando a tela estiver até 768px */
+
+@media(max-width: 768px) {
+  .cabecalho{
+    /* coloca a logo e o Menu um abaixo do outro */
+    flex-direction: column;
+
+    /* Centralizar os elementos */
+    align-items: center;
+
+    /* Espaçamento entre a logo e o menu */
+    gap: 20px;
+
+    /* Reduz o espaçamento interno do cabeçalho */
+    padding: 20px;
+  }
+  .menu{
+  /* PERMITE QUE O MENU QUEBRE PARA OUTRA LINHA SE FALTAR ESPAÇO */
+  flex-wrap: wrap;
+  /* CENTRALIZAR OS ITENS DO MENU */
+  justify-content: center;
+}
+  .main{
+  padding: 25px;
+}
+}
+
+
+  /* CELULARES: Estas regras são aplicadas quando a tela estiver até 480px */
+@media(max-width: 480px){
+  .logo {
+    font-size: 24px;
+  }
+  .menu{
+    /* COLOCA OS ITENS DO MENU UM ABAIXO DO OUTRO */
+    flex-direction: column;
+    align-items: center;
+    gap: 12px;
+  }
+  .main{
+    padding: 20px;
+  }
+  main > h2{
+    font-size: 22px;
+  }
+  .card{
+    flex-basis: 100%;
+  }
 }
