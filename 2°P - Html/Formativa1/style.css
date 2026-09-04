@@ -1,0 +1,29 @@
+*{
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: beige;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+}
+
+.menu{
+    display:flex;
+    align-items: center;
+}
+
+.menu li{
+    list-style: none;
+    padding: 10px;
+}
+
+.menu a{
+    text-decoration: none;
+}
+
+.menu a:hover{
+    padding: 5px;
+    color: red;
+    transition: 0.5s;
+}
