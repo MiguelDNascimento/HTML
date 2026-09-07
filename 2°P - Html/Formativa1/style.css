@@ -89,5 +89,21 @@ footer{
 
 /* CELULARES */
 @media (max-width:480px){
-    
+    .menu ul{
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    .menu li{
+        width: 80%;
+    }
+    .produtos{
+        flex-direction: column;
+        align-items: center;
+        padding: 15px;
+    }
+    .produtos article{
+        width: 100%;
+        max-width: 350px;
+    }
 }
