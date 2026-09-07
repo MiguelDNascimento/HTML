@@ -58,7 +58,7 @@ main h2{
     padding: 15px;
 }
 .produtos img{
-    width: 200px;
+    width: 100%;
     height: 200px;
     object-fit: cover;
     border-radius: 15px;
@@ -104,6 +104,6 @@ footer{
     }
     .produtos article{
         width: 100%;
-        max-width: 350px;
+        max-width: 350;
     }
 }
