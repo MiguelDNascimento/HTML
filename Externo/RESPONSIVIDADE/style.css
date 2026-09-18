@@ -1,0 +1,26 @@
+
+body{
+    background-color: antiquewhite;
+}
+
+.cabecalho{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+li{
+    list-style: none;
+}
+.menu{
+    display: flex;
+    gap: 15px;
+}
+.cards{
+    display: flex;
+    gap: 20px;
+}
+
+.hobbies{
+    display: flex;
+    gap: 15px;
+}
