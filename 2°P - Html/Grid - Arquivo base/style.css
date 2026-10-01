@@ -1,0 +1,112 @@
+* {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f5f5f5;
+            color: #1e293b;
+        }
+
+        .cabecalho {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            padding: 20px 40px;
+            background-color: #1e293b;
+        }
+
+        .logo {
+            color: white;
+            font-size: 24px;
+        }
+
+        .menu {
+            display: flex;
+            gap: 20px;
+            list-style: none;
+        }
+
+        .menu a {
+            color: white;
+            text-decoration: none;
+        }
+
+        main {
+            padding: 40px;
+        }
+
+        .hero {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 200px;
+            padding: 40px;
+            text-align: center;
+            background-color: #e2e8f0;
+            border-radius: 8px;
+            margin-bottom: 40px;
+        }
+
+        .hero-conteudo h2 {
+            margin-bottom: 10px;
+            font-size: 32px;
+        }
+
+        /* AREA DE CONTEUDO AINDA SEM GRID */
+        .conteudo-principal {
+            margin-top: 20px;
+            display: grid;
+            grid-template-columns: 250px 1fr;
+            gap: 30px;
+        }
+
+        .lateral {
+            background-color: white;
+            padding: 20px;
+            border-radius: 8px;
+            margin-bottom: 20px;
+            border: 1px solid #ddd;
+        }
+
+        .lateral h3 {
+            margin-bottom: 15px;
+            border-bottom: 2px solid #EAB308;
+            display: inline-block;
+        }
+
+        .lateral ul {
+            list-style: none;
+        }
+
+        .lateral li {
+            margin-bottom: 10px;
+        }
+
+        .principal h2 {
+            margin-bottom: 20px;
+        }
+
+        .lista-cursos {
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 20px;
+        }
+
+        .card {
+            flex: 1 1 250px;
+            padding: 20px;
+            background-color: white;
+            border: 1px solid #ddd;
+            border-radius: 8px;
+        }
+
+        footer {
+            margin-top: 40px;
+            padding: 25px 40px;
+            color: white;
+            background-color: #1e293b;
+            text-align: center;
+        }
