@@ -1,0 +1,31 @@
+*{
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: antiquewhite;
+}
+
+.cursos{
+    list-style: none;
+    display: grid;
+    /* Cria 3 colunas com tamanhos iguais */
+    grid-template-columns: repeat(3, 1fr);
+
+    /* Cria 2 colunas com tamanhos iguais
+    grid-template-columns: repeat(2, 1fr); */
+
+    /* A segunda coluna tem o dobro da primeira
+    grid-template-columns: 1fr 2fr; */
+
+    /* A coluna do meio tem o dobro da primeira e terceira
+    grid-template-columns: 1fr 2fr 1fr; */
+
+    /* Espaçamento */
+    gap: 20px;
+
+}
+
+li{
+    background-color:aquamarine;
+    padding: 30px;
+    border: 2px solid black;
+}
